@@ -68,7 +68,7 @@
         android:paddingTop="16dp">
 
         <EditText
-            android:id="@+id/birthday"
+            android:id="@+id/birthday1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -88,7 +88,7 @@
         android:paddingTop="16dp">
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/email1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
