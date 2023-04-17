@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     homeFragment homeF = new homeFragment();
     profileFragment profileF = new profileFragment();
     searchFragment searchF = new searchFragment();
+    addFragment addF = new addFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +50,13 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.flFragment, searchF)
+                        .commit();
+                return true;
+
+            case R.id.add:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.flFragment,addF)
                         .commit();
                 return true;
         }

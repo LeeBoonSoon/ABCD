@@ -12,6 +12,11 @@
         android:icon="@drawable/ic_search"/>
 
     <item
+        android:id="@+id/add"
+        android:title="add"
+        android:icon="@drawable/ic_add"/>
+
+    <item
         android:id="@+id/person"
         android:title="Person"
         android:icon="@drawable/ic_person"/>
